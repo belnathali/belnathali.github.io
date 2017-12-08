@@ -1,23 +1,426 @@
-<!-- Powered by ibuioli.com.ar -->
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta property="og:title" content="Bel Nathalí - Make up Artist" />
-  <meta property="og:url" content="" />
-  <meta property="og:description" content="" />
-  <title>Bel Nathalí - Make up Artist</title>
-  <base href="/belnathali/">
+  <title>Bel Nathalí - Makeup Artist</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="styles.bundle.css" rel="stylesheet"/></head>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="css/loader.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
 <body>
-  <app-root>
-    <div class="loaders-container">
-    <style media="screen">#loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1000;background:#ddd}#loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#4a0080;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}#loader:before{content:"";position:absolute;top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#ff034c;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}#loader:after{content:"";position:absolute;top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#00b966;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}</style>
-    <div id="loader-wrapper"><div id="loader"></div></div>
-  </app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+  <div id="preloader">
+    <div id="loader">
+    </div>
+  </div>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#hero">Bel Nathalí</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero" class="m-home">Inicio</a></li>
+          <li><a href="#news" class="m-news">Novedades</a></li>
+          <li><a href="#services" class="m-services">Servicios</a></li>
+          <li><a href="#portfolio" class="m-portfolio">Portfolio</a></li>
+          <li><a href="#contact" class="m-contact">Contacto</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <img src="img/arr_i.png" alt="" class="d_img" id="d_img_izq">
+      <img src="img/arr_d.png" alt="" class="d_img" id="d_img_der">
+      <h1>Bel Nathalí</h1>
+      <h2>Makeup Artist</h2>
+      <img src="img/abajo.png" alt="" width="300" id="img_down">
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      News Section
+    ============================-->
+    <section id="news">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col content order-lg-1 order-2">
+            <h2 class="title">Novedades</h2>
+            <p>
+              Últimas novedades y promociones de <b>Bel Nathali</b>
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-tree"></i></div>
+              <h4 class="title"><a href="">Maquillaje para las Fiestas</a></h4>
+              <p class="description">Aprovechá los precios promocionales por Navidad y Fin de Año, ¡Reservá tu Turno!</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-child"></i></div>
+              <h4 class="title"><a href="">Sercivio de Fiestas Infantiles</a></h4>
+              <p class="description">Maquillaje Artístico para niños, incluye colores fluor para carnaval.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-eye"></i></div>
+              <h4 class="title"><a href="">2x1 Perfilado de Cejas con Pigmentación Henna</a></h4>
+              <p class="description">Vení con una amiga y aprovechá esta promo imperdible.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Servicios</h3>
+          <p class="section-description">Servicios de maquillaje y cosmetología prestados por <b>Bel Nathali</b></p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-paint-brush"></i></a></div>
+              <h4 class="title"><a href="">Maquillaje Social</a></h4>
+              <p class="description">Servicio de maquillaje para novias, madrinas, 15 años y egresadas.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-camera"></i></a></div>
+              <h4 class="title"><a href="">Publicidad y Moda</a></h4>
+              <p class="description">Maquillaje y tendencias para sesiones fotográficas y pasarelas.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-users"></i></a></div>
+              <h4 class="title"><a href="">Maquillaje Artístico</a></h4>
+              <p class="description">Caracterización teatral, disfraces, festivales, eventos, infantiles.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-graduation-cap"></i></a></div>
+              <h4 class="title"><a href="">Clases de Automaquillaje</a></h4>
+              <p class="description">Aprendé a maquillarte por tu cuenta con tus cosméticos.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-eyedropper"></i></a></div>
+              <h4 class="title"><a href="">Limpieza Facial</a></h4>
+              <p class="description">Limpiezas profundas de Cutis según tipo de piel con productos especializados.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-eye"></i></a></div>
+              <h4 class="title"><a href="">Prefilado de Cejas</a></h4>
+              <p class="description">Diseño y Perfilado de Cejas con pigmentación en Henna egipcia.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-hand-paper-o"></i></a></div>
+              <h4 class="title"><a href="">Manicuría</a></h4>
+              <p class="description">Belleza de manos y pies, esmaltado, Nail art.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Portfolio</h3>
+          <p class="section-description">Pequeña muestra de trabajos realizados por <b>Bel Nathali</b></p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-social, .filter-art, .filter-nail" class="filter-active">Todo</li>
+              <li data-filter=".filter-social">Social</li>
+              <li data-filter=".filter-art">Artístico</li>
+              <li data-filter=".filter-nail">Nail Art</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-social">
+            <a href="">
+              <img src="img/portfolio/01.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Social</h4>
+                <span>Social, fiestas, eventos</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-social">
+            <a href="">
+              <img src="img/portfolio/02.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Social</h4>
+                <span>Social, fiestas, eventos</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-art">
+            <a href="">
+              <img src="img/portfolio/03.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Artístico</h4>
+                <span>Caracterización teatral</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-art">
+            <a href="">
+              <img src="img/portfolio/04.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Artístico</h4>
+                <span>Caracterización teatral</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-social">
+            <a href="">
+              <img src="img/portfolio/05.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Social</h4>
+                <span>Social, fiestas, eventos</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-art">
+            <a href="">
+              <img src="img/portfolio/06.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Artístico</h4>
+                <span>Disfraces</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-social">
+            <a href="">
+              <img src="img/portfolio/07.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Social</h4>
+                <span>Social, fiestas, eventos</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-nail">
+            <a href="">
+              <img src="img/portfolio/08.jpg" alt="">
+              <div class="details">
+                <h4>Nail Art</h4>
+                <span>Belleza de uñas</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-social">
+            <a href="">
+              <img src="img/portfolio/09.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Social</h4>
+                <span>Social, fiestas, eventos</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-art">
+            <a href="">
+              <img src="img/portfolio/10.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Artístico</h4>
+                <span>Caracterización teatral</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-art">
+            <a href="">
+              <img src="img/portfolio/11.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Artístico</h4>
+                <span>Disfraces</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-social">
+            <a href="">
+              <img src="img/portfolio/12.jpg" alt="">
+              <div class="details">
+                <h4>Maquillaje Social</h4>
+                <span>Social, fiestas, eventos</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Contacto</h3>
+          <p class="section-description">Contactarse con <b>Bel Nathalí</b></p>
+        </div>
+      </div>
+
+      <div class="container wow fadeInUp">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>Avellaneda,<br>Buenos Aires</p>
+              </div>
+
+              <div>
+                <i class="fa fa-clock-o"></i>
+                <p>Lun - Vie<br>10:00 - 20:00</p>
+              </div>
+
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>belnathali@gmail.com</p>
+              </div>
+
+              <!--div>
+                <i class="fa fa-phone"></i>
+                <p></p>
+              </div-->
+            </div>
+
+            <div class="social-links">
+              <!--a href="#" class="twitter"><i class="fa fa-twitter"></i></a-->
+              <a href="http://facebook.com/BelNathali" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="http://instagram.com/BelNathali" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+              <!--a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a-->
+              <!--a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a-->
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Tu Mensaje ha sido Enviado</div>
+              <div id="errormessage"></div>
+              <form method="post" action="" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Al menos 4 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Porfavor, ingrese un Email válido" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Al menos 8 caracteres" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Escriba un Mensaje" placeholder="Mensaje"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Bel Nathalí</strong>.
+        <p class="powered">Desarrollado por <a href="http://www.moldeointeractive.com.ar" target="_blank">Moldeo Interactive</a></p>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- /////////////////////////////////////////////////////////// -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
 </html>
-<!-- Powered by ibuioli.com.ar -->
